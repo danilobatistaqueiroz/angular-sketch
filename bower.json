@@ -1,0 +1,23 @@
+{
+  "name": "angular-sketch",
+  "description": "an initial structure for angularJs projects",
+  "main": "",
+  "authors": [
+    "Danilo Batista de Queiroz"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "webapp/app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "bootswatch-dist": "cosmo"
+  }
+}
