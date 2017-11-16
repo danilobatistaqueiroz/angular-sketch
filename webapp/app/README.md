@@ -29,6 +29,13 @@ At the root of the project create **.bowerrc** file with the following content:
 
 `bower init`
 
+npm install gulp-clean-css --save-dev
+
+bower install angular#^1.6.6
+bower install bootswatch-dist#cosmo
+
+npm install --save-dev gulp-concat-css
+
 `bower install angular --save`
 
 `npm install -g gulp`
@@ -41,7 +48,9 @@ At the root of the project create **.bowerrc** file with the following content:
 
 `npm install --save-dev gulp-usemin gulp-minify-html`
 
-'npm i gulp-htmlmin --save-dev'
+`npm i gulp-htmlmin --save-dev`
+
+npm i gulp-main-bower-files --save-dev
 
 create the **gulpfile.js** file:
 
@@ -78,3 +87,5 @@ gulp.task('build', ['clean'], function () {
 `npm install --save-dev gulp-html-replace`
 
 `npm i gulp-bower-files`
+
+`npm install gulp-bower-src`

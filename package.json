@@ -1,0 +1,39 @@
+{
+  "name": "angular-sketch",
+  "version": "1.0.0",
+  "description": "an initial file structure for angularJs projects",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "dist/js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-bower-src": "^0.1.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-filter": "^5.0.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-main-bower-files": "^1.6.2",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28",
+    "main-bower-files": "^2.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilobatistaqueiroz/angular-sketch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilobatistaqueiroz/angular-sketch/issues"
+  },
+  "homepage": "https://github.com/danilobatistaqueiroz/angular-sketch#readme"
+}
