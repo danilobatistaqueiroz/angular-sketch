@@ -35,4 +35,10 @@ app.controller("MainCtrl", function ($scope) {
 
 app.controller('UsersCtrl', function($scope) {
     $scope.user = "danilo";
+
+    $scope.newInfo = function(){
+      $('#newUserForm').slideDown();
+      $('#btnNewUser').prop('disabled',true);
+      $('#editUserForm').slideUp();
+    };
 });
