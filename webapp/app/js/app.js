@@ -5,18 +5,18 @@ var app = angular.module('angularApp', ['ngRoute']);
 app.config(function ($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
-      templateUrl: 'views/main.php',
+      templateUrl: 'views/main.html',
       controller: 'MainCtrl'
     })
     .when('/notifyTuto', {
       templateUrl: 'views/notifyTuto.html'
     })
     .when('/users', {
-      templateUrl: 'views/users.php',
+      templateUrl: 'views/users.html',
       controller: 'UsersCtrl'
     })
     .when('/products', {
-      templateUrl: 'views/products.php',
+      templateUrl: 'views/products.html',
       controller: 'ProductsCtrl'
     })
     .when('/contact', {
@@ -34,6 +34,5 @@ app.controller("MainCtrl", function ($scope) {
 });
 
 app.controller('UsersCtrl', function($scope) {
-    console.log('ola');
     $scope.user = "danilo";
 });
