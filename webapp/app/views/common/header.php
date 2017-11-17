@@ -18,13 +18,13 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="#!users">Users</a>
+                    <a href="/users">Users</a>
                 </li>
                 <li>
-                    <a href="#/products">Products</a>
+                    <a href="/products">Products</a>
                 </li>
                 <li>
-                    <a href="#/tags">Tags</a>
+                    <a href="/tags">Tags</a>
                 </li>
             </ul>
             <div class="navbar-right ">
