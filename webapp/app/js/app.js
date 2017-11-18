@@ -1,5 +1,9 @@
 'use strict';
 
+
+//TODO: add connection to mongodb
+//TODO: add some validations
+
 var app = angular.module('angularApp', ['ngRoute']);
 
 app.config(function ($routeProvider, $locationProvider) {
